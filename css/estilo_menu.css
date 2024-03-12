@@ -1,3 +1,7 @@
+/*--------------------------------------------------------------
+# Menú principal y ¿ Quiénes somos?
+--------------------------------------------------------------*/
+
 /* Estilos para pantallas grandes */
 @media (min-width: 992px) {
   #desplegable {
@@ -26,50 +30,207 @@
   }
 }
 
-#titulo {
-  margin: 50px auto 0; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
-  text-align: center; /* Centrar el texto */
-  text-decoration: underline; /* Añadir subrayado al texto */
+/* Estilos para la barra de navegación en pantallas pequeñas */
+@media (max-width: 991px) {
+  #demo {margin-top:30% ;
+   
+  }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.heading {
+  margin-top: 5%;
+  color: rgb(13, 13, 102); 
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold; 
+}
+
+.description {
+  margin-top:5% ;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: justify; /* Alineado justificado */
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  
   
 }
 
+.footer-info p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.no-copiar {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 70%;
+}
+
+/*--------------------------------------------------------------
+# Ingreso/retiro de dinero
+--------------------------------------------------------------*/
+
+/* Estilos para pantallas grandes y medianas */
+@media (min-width: 992px) {
+  #titulo {
+    margin-top: 5%; 
+    text-align: center;
+    text-decoration: underline;
+  }
+  .cuadrado {
+    margin: 100px auto; 
+    width: 60%; 
+    border: 2px solid black; 
+    padding: 20px; 
+    background-color: #e5ffe5;
+    text-align: center; 
+  }
+
+  .cuadrado button {
+    margin: 10px; 
+  }
+  
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 991.98px) {
+  #titulo {
+    margin-top: 30%; 
+    text-align: center;
+    text-decoration: underline;
+  }
+  .cuadrado {
+    margin: 30px auto; 
+    width: 90%; 
+    border: 2px solid black; 
+    padding: 20px; 
+    background-color:  #e5ffe5;; 
+    text-align: center; 
+  }
+ 
+}
+
 .balance {
-  margin:2%; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
-  text-align: center; /* Centrar el texto */
+  margin:2%; 
+  text-align: center; 
 }
 
 #globalBalance {
-  margin: 50px auto 0; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
+  margin: 10% auto 0; 
   text-align: center; 
 
 }
 
-.cuadrado {
-  margin: 100px auto 0;
-  margin-left: 20%;
-  margin-right:20% ;
-  border: 2px solid black; /* Añade un borde sólido de 2px de ancho y color negro */
-  padding: 10px; /* Añade un relleno interno de 10px para separar el contenido del borde */
-  background-color: rgb(148, 243, 193);
+/*--------------------------------------------------------------
+# Historial de transacciones
+--------------------------------------------------------------*/
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 991.98px) {
+  #historial {
+    margin-top: 25%;
+    margin-bottom: 3%;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    
+    }
 }
 
-#imagen_deposito{
-  width: 10%; /* Ajusta el ancho de la imagen según sea necesario */
-  position: fixed;
-  top: 25%; /* Distancia desde la parte superior */
-  left: 20%; 
+@media (min-width: 992px) {
+  #historial {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    
+    }
+  }
+
+/*--------------------------------------------------------------
+# Registro de usuarios
+--------------------------------------------------------------*/
+
+  
+  
+  .usuario {
+    margin-top:5%; 
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+      
+  }
+
+  @media (max-width: 768px) {
+
+    .usuario {
+      margin-top:20%; 
+      text-align: center;
+      font-weight: bold;
+      text-decoration: underline;
+           
+    }
+    #registerForm {
+        margin-top: 10%; /* Puedes ajustar este valor según tu diseño */
+    }
+}
+
+/*--------------------------------------------------------------
+# Transferencia
+--------------------------------------------------------------*/
+
+.transferencias {
+  margin-top:5%; 
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+    
+ }
+
+@media (max-width: 768px) {
+  .transferencias {
+    margin-top:25%; 
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+       
+  } 
+}
+
+.balance-container {
+  border: 1px solid black; 
+  background-color: #e5ffe5; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+}
+
+
+.fondos_disponibles {
+  font-weight: bold;
 
 }
 
-.registro {
-  margin:2%; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
-  text-align: center; /* Centrar el texto */
-
-}
-
-.usuarios {
-  margin:8%; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
-  text-align: center; /* Centrar el texto */
-
-
-}
