@@ -1,0 +1,75 @@
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+  #desplegable {
+    display: none; /* Oculta el botón para pantallas grandes */
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 991.98px) {
+  #desplegable {
+    display: block; /* Muestra el botón para pantallas pequeñas */
+  }
+}
+
+/* Estilos para la barra de navegación en pantallas grandes */
+@media (min-width: 992px) {
+  #barra {
+    display: block !important;
+  }
+}
+
+/* Estilos para la barra de navegación en pantallas pequeñas */
+@media (max-width: 991px) {
+  #barra {
+    display: none !important;
+  }
+}
+
+#titulo {
+  margin: 50px auto 0; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
+  text-align: center; /* Centrar el texto */
+  text-decoration: underline; /* Añadir subrayado al texto */
+  
+}
+
+.balance {
+  margin:2%; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
+  text-align: center; /* Centrar el texto */
+}
+
+#globalBalance {
+  margin: 50px auto 0; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
+  text-align: center; 
+
+}
+
+.cuadrado {
+  margin: 100px auto 0;
+  margin-left: 20%;
+  margin-right:20% ;
+  border: 2px solid black; /* Añade un borde sólido de 2px de ancho y color negro */
+  padding: 10px; /* Añade un relleno interno de 10px para separar el contenido del borde */
+  background-color: rgb(148, 243, 193);
+}
+
+#imagen_deposito{
+  width: 10%; /* Ajusta el ancho de la imagen según sea necesario */
+  position: fixed;
+  top: 25%; /* Distancia desde la parte superior */
+  left: 20%; 
+
+}
+
+.registro {
+  margin:2%; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
+  text-align: center; /* Centrar el texto */
+
+}
+
+.usuarios {
+  margin:8%; /* Margen superior de 50px y márgenes laterales automáticos para centrar */
+  text-align: center; /* Centrar el texto */
+
+
+}

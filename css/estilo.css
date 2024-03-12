@@ -1,0 +1,26 @@
+
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.755);
+    width: 50%;
+    margin: 150px auto; /* Mover el contenedor hacia abajo */
+    padding: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+    display: block; /* Convertir el botón en un elemento de bloque */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+
+  .form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(173, 255, 47, 0.5);
+  }
+

@@ -1,0 +1,61 @@
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+    #desplegable {
+      display: none; /* Oculta el botón para pantallas grandes */
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 991.98px) {
+    #desplegable {
+      display: block; /* Muestra el botón para pantallas pequeñas */
+    }
+  }
+  
+  /* Estilos para la barra de navegación en pantallas grandes */
+  @media (min-width: 992px) {
+    #barra {
+      display: block !important;
+    }
+  }
+  
+  /* Estilos para la barra de navegación en pantallas pequeñas */
+  @media (max-width: 991px) {
+    #barra {
+      display: none !important;
+    }
+  }
+
+#transacciones {
+    margin-top: 50px;
+
+}
+
+
+/* Centrar los botones */
+#Deposito .col-md-6 button {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  /* Cambiar color de los botones */
+  .btn-success {
+    background-color: #28a745; /* Verde */
+    border-color: #28a745;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Rojo */
+    border-color: #dc3545;
+  }
+  
+  /* Estilos para el contenedor del balance */
+  #balanceContainer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f8f9fa; /* Color de fondo gris claro */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  
