@@ -9,11 +9,11 @@ $("#login").submit((event)=>{
 function obtenerYvalidar() {
     var email = $('#exampleInputEmail1').val();
     var password = $('#exampleInputPassword1').val();
-    var emailValidacion ="'usuario'@example.com";
+    var emailValidacion ="usuario@example.com";
     var passwordValidacion = "contraseña"
     // Realizar validación y proceso de inicio de sesión
 
-    if(email === "'usuario'@example.com" && password === "contraseña") {
+    if(email === "usuario@example.com" && password === "contraseña") {
       // Redireccionar al menú principal o realizar más acciones
       window.location.href = "menu.html";
     } else {
