@@ -1,0 +1,4 @@
+la contraseña de inicio sesión es:
+
+usuario: usuario@example.com
+contraseña:contraseña
