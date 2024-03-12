@@ -15,7 +15,7 @@ function obtenerYvalidar() {
 
     if(email === "usuario@example.com" && password === "contraseña") {
       // Redireccionar al menú principal o realizar más acciones
-      window.location.href = "menu.html";
+      window.location.href = "menu_quienes_somos.html";
     } else {
       // Mostrar mensaje de error o manejar credenciales inválidas
       alert("Dirección de correo electrónico o contraseña incorrectos. Por favor, inténtalo de nuevo.");
